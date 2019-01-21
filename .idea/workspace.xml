@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2d44dede-844d-4e1e-964e-38642a4c78ac" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Difficulty.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Difficulty.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,20 +62,17 @@
       <file leaf-file-name="MainMenu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MainMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Difficulty.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Difficulty.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Difficulty.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+            <state relative-caret-position="252">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -82,20 +80,10 @@
       <file leaf-file-name="GameOver.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/GameOver.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+            <state relative-caret-position="42">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameOver.js" pinned="false" current-in-tab="false">
-        <entry file="vcs://D:/Google Диск/Projects/React/snake/src/components/GameOver.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="GameOver.js" pinned="false" current-in-tab="true">
-        <entry file="vcs://D:/Google Диск/Projects/React/snake/src/components/GameOver.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="SubMenu.js" pinned="false" current-in-tab="false">
@@ -144,10 +132,10 @@
         <option value="$PROJECT_DIR$/src/components/MainMenu.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/components/SubMenu.js" />
-        <option value="$PROJECT_DIR$/src/components/Difficulty.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/GameOver.js" />
+        <option value="$PROJECT_DIR$/src/components/Difficulty.js" />
       </list>
     </option>
   </component>
@@ -177,36 +165,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="snake" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snake" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snake" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snake" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snake" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snake" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="snake" type="b2602c69:ProjectViewProjectNode" />
-              <item name="snake" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -261,7 +220,7 @@
       <workItem from="1547892279169" duration="74000" />
       <workItem from="1547892365670" duration="25999000" />
       <workItem from="1547994316808" duration="1658000" />
-      <workItem from="1548093273603" duration="1652000" />
+      <workItem from="1548093273603" duration="3875000" />
     </task>
     <task id="LOCAL-00001" summary="Back to the start state">
       <created>1548094890101</created>
@@ -270,11 +229,32 @@
       <option name="project" value="LOCAL" />
       <updated>1548094890101</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Back to the start state">
+      <created>1548095283992</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548095283992</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Reduced the code using map() for &quot;levels&quot;">
+      <created>1548096602384</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548096602384</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Reduced the code using map() for &quot;levels&quot;&#10;Correct mistake in value">
+      <created>1548096814590</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548096814590</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106020000" />
+    <option name="totallyTimeSpent" value="108243000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,8 +276,8 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32893288" />
       <window_info id="npm" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.33443344" />
+      <window_info id="Structure" order="2" side_tool="true" visible="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.33443344" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -342,12 +322,40 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Back to the start state" />
-    <option name="LAST_COMMIT_MESSAGE" value="Back to the start state" />
+    <MESSAGE value="Reduced the code using map() for &quot;levels&quot;" />
+    <MESSAGE value="Reduced the code using map() for &quot;levels&quot;&#10;Correct mistake in value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reduced the code using map() for &quot;levels&quot;&#10;Correct mistake in value" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/Field.js">
@@ -371,9 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="71" lean-forward="true" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -649,16 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Field.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -678,11 +673,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MainMenu.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/GameOver.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -693,17 +692,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Difficulty.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Field.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        <state relative-caret-position="294">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/GameOver.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Difficulty.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+        <state relative-caret-position="252">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
         </state>
       </provider>
     </entry>

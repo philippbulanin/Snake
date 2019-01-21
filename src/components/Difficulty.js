@@ -21,7 +21,8 @@ export class Difficulty extends React.Component {
                 <div className="difficulty-levels-list">
                     {levels.map((level) =>
                         <label
-                            className={"difficulty-level" + (this.props.level === {level} ? " checked" : "")}>
+                            key={level}
+                            className={"difficulty-level" + (this.props.level === level ? " checked" : "")}>
                             {level}
                             <input
                                 className="difficulty-radio"
