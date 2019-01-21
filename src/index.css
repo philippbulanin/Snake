@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 815px;
+    height: 865px;
+    margin: auto auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: black;
+}
+
+.field {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 805px;
+    height: 805px;
+    padding: 0 0 1px 0;
+    border: 2px solid rgba(170,255,161,0.4);
+    background: black;
+}
+
+.pixel {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid rgba(170,255,161,0.1);
+    border-top: 1px solid rgba(170,255,161,0.1);
+
+    text-align: center;
+}
+
+.snake {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 8px;
+    background: radial-gradient(circle, #23ff00, #b6ff00);
+}
+
+.head {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 8px;
+    background: radial-gradient(circle, #23ff00, #005aff);
+}
+
+@keyframes blink {
+    0% { box-shadow: 0 0 0px #ff5c14; }
+    100% { box-shadow: 0 0 1000px #ff5c14; }
+}
+
+.apple {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 8px;
+    animation: blink 3s ease;
+    background: radial-gradient(circle, #ff5c14, #ff0000);
+}
+
+.main-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    color: #23ff00;
+}
+
+.main-menu-title {
+    font-size: 150px;
+    font-family: algerian;
+}
+
+.main-menu-btn {
+    border: none;
+    font-size: 48px;
+    background: transparent;
+    padding: 10px;
+    color: rgba(0,116,255,0.65);
+    font-family: algerian;
+    cursor: pointer;
+    outline: none;
+}
+
+.main-menu-btn:hover {
+    color: rgba(0,116,255,1);
+}
+
+.main-menu-by {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffde00;
+}
+
+.difficulty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.difficulty-level {
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-family: algerian;
+    font-size: 35px;
+}
+
+.checked {
+    color: red;
+}
+
+.difficulty-radio {
+    display: none;
+}
+
+.difficulty-comment {
+    margin-top: 15px;
+    font-family: algerian;
+    color: #ffde00;
+
+}
+
+.main-menu-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes blink-text {
+    from {color: transparent;}
+    to {color: #ffde00;}
+}
+
+.explanation {
+    text-align: center;
+    animation: blink-text 2s ease-out infinite;
+}
+
+.gameover {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.gameover-info {
+    margin-top: -100px;
+}
+
+.gameover-lastwords {
+    font-size: 35px;
+    color: #ffde00;
+    font-family: algerian;
+}
+
+.gameover-score {
+    margin-top: 20px;
+    text-align: center;
+    color: chartreuse;
+    font-family: algerian;
+}
+
+.gameover-title {
+    margin-top: 200px;
+    text-align: center;
+    color: #ff2d00;
+    font-family: algerian;
+    font-size: 80px;
+}
+
+.gameover-restart {
+    padding: 5px;
+    font-size: 48px;
+    border: none;
+    border-radius: 8px;
+    font-family: algerian;
+    outline: none;
+    cursor: pointer;
+}
+
+.gameover-restart:hover {
+    color: #ff2d00;
+}
+
+.gameover-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.sub-menu {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.sub-menu-score {
+    color: rgba(170,255,161,0.6);
+    font-size: 36px;
+    font-family: algerian;
+}
+
+.sub-menu-level {
+    display: flex;
+    font-family: algerian;
+    color: rgba(170,255,161,0.6);
+    font-size: 36px;
+}
+
+.sub-menu-btn {
+    height: 40px;
+    width: 150px;
+    border: 2px solid rgba(170,255,161,0.6);
+    color: rgba(170,255,161,0.6);
+    border-radius: 8px;
+    font-size: 24px;
+    font-family: algerian;
+    padding: 5px;
+    background: black;
+    cursor: pointer;
+}
+
+.sub-menu-btn:hover {
+    border: 2px solid rgba(170,255,161,0.6);
+    color: black;
+    background: rgba(170,255,161,0.6);
+}
