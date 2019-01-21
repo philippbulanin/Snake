@@ -9,6 +9,7 @@ export class GameOver extends React.Component {
         if (this.props.score > 3000 && this.props.score <= 4000) lastWords = "Not bad, bro! Not bad!";
         if (this.props.score > 4000 && this.props.score <= 5000) lastWords = "Are you human?";
         if (this.props.score > 5000) lastWords = "I`ll call you master!";
+        console.log(this.props.score);
 
         return (
             <div className={"gameover"} style={{zIndex: this.props.zIndex}}>
