@@ -14,65 +14,24 @@ export class Difficulty extends React.Component {
             crazy: "Are you sure?",
             insane: "Run, Forest! Run!"
         };
+        const levels = ["easy", "medium", "hard", "crazy", "insane"];
         return (
             <div
                 className="difficulty">
                 <div className="difficulty-levels-list">
-                    <label
-                        className={"difficulty-level" + (this.props.level === "easy" ? " checked" : "")}>
-                        Easy
-                        <input
-                            className="difficulty-radio"
-                            name="level"
-                            type="radio"
-                            value="easy"
-                            onChange={this.handleChange}
-                        />
-                    </label>
-                    <label
-                        className={"difficulty-level" + (this.props.level === "medium" ? " checked" : "")}>
-                        Medium
-                        <input
-                            className="difficulty-radio"
-                            name="level"
-                            type="radio"
-                            value="medium"
-                            onChange={this.handleChange}
-                        />
-                    </label>
-                    <label
-                        className={"difficulty-level" + (this.props.level === "hard" ? " checked" : "")}>
-                        Hard
-                        <input
-                            className="difficulty-radio"
-                            name="level"
-                            type="radio"
-                            value="hard"
-                            onChange={this.handleChange}
-                        />
-                    </label>
-                    <label
-                        className={"difficulty-level" + (this.props.level === "crazy" ? " checked" : "")}>
-                        Crazy
-                        <input
-                            className="difficulty-radio"
-                            name="level"
-                            type="radio"
-                            value="crazy"
-                            onChange={this.handleChange}
-                        />
-                    </label>
-                    <label
-                        className={"difficulty-level" + (this.props.level === "insane" ? " checked" : "")}>
-                        Insane
-                        <input
-                            className="difficulty-radio"
-                            name="level"
-                            type="radio"
-                            value="insane"
-                            onChange={this.handleChange}
-                        />
-                    </label>
+                    {levels.map((level) =>
+                        <label
+                            className={"difficulty-level" + (this.props.level === {level} ? " checked" : "")}>
+                            {level}
+                            <input
+                                className="difficulty-radio"
+                                name="level"
+                                type="radio"
+                                value="easy"
+                                onChange={this.handleChange}
+                            />
+                        </label>
+                    )}
                 </div>
                 <div className="difficulty-comment">{comment[this.props.level]}</div>
             </div>
