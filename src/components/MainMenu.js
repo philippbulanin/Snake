@@ -14,7 +14,7 @@ export class MainMenu extends React.Component {
                         onClick={this.props.start}>
                         Start
                     </button>
-                    <div className="explanation">Press Space or push Start</div>
+                    <div className="explanation">Press Space or click Start</div>
                 </div>
                 <Difficulty
                     changeLevel={this.props.changeLevel}

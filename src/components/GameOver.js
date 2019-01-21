@@ -19,7 +19,7 @@ export class GameOver extends React.Component {
                 <h1 className="gameover-title">Game Over</h1>
                 <div className="gameover-button-wrapper">
                     <button className="gameover-restart" onClick={this.props.restart}>Restart</button>
-                    <div className="explanation">Press Space or push Restart</div>
+                    <div className="explanation">Press Space or click Restart</div>
                 </div>
             </div>
         )
