@@ -27,7 +27,7 @@ export class Difficulty extends React.Component {
                                 className="difficulty-radio"
                                 name="level"
                                 type="radio"
-                                value="easy"
+                                value={level}
                                 onChange={this.handleChange}
                             />
                         </label>
