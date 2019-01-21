@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d44dede-844d-4e1e-964e-38642a4c78ac" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Difficulty.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Difficulty.js" afterDir="false" />
-    </list>
+    <list default="true" id="2d44dede-844d-4e1e-964e-38642a4c78ac" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -71,8 +68,8 @@
       <file leaf-file-name="Difficulty.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Difficulty.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="-126">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -117,6 +114,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -220,7 +222,7 @@
       <workItem from="1547892279169" duration="74000" />
       <workItem from="1547892365670" duration="25999000" />
       <workItem from="1547994316808" duration="1658000" />
-      <workItem from="1548093273603" duration="3875000" />
+      <workItem from="1548093273603" duration="4276000" />
     </task>
     <task id="LOCAL-00001" summary="Back to the start state">
       <created>1548094890101</created>
@@ -250,11 +252,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548096814590</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed mistake in condition">
+      <created>1548097438769</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1548097438769</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108243000" />
+    <option name="totallyTimeSpent" value="108644000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -267,17 +276,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="3" weight="0.24761146" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32897604" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32893288" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.32893288" />
       <window_info id="npm" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info id="Structure" order="2" side_tool="true" visible="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.33443344" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.33443344" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -355,7 +363,8 @@
     <MESSAGE value="Back to the start state" />
     <MESSAGE value="Reduced the code using map() for &quot;levels&quot;" />
     <MESSAGE value="Reduced the code using map() for &quot;levels&quot;&#10;Correct mistake in value" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reduced the code using map() for &quot;levels&quot;&#10;Correct mistake in value" />
+    <MESSAGE value="Fixed mistake in condition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed mistake in condition" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/Field.js">
@@ -704,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Difficulty.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="-126">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
